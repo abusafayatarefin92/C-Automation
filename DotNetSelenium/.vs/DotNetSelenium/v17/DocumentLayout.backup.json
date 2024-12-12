@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\DotNetSelenium\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{429DF1A9-91FE-43B5-9AAB-750D5626DB45}|DotNetSelenium\\DotNetSelenium.csproj|c:\\users\\abu.arefin\\onedrive - save the children international\\desktop\\git\\c-automation\\dotnetselenium\\dotnetselenium\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{429DF1A9-91FE-43B5-9AAB-750D5626DB45}|DotNetSelenium\\DotNetSelenium.csproj|solutionrelative:dotnetselenium\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 317,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\DotNetSelenium\\DotNetSelenium\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "DotNetSelenium\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\DotNetSelenium\\DotNetSelenium\\UnitTest1.cs*",
+              "RelativeToolTip": "DotNetSelenium\\UnitTest1.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T05:38:44.961Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
