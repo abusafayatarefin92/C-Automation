@@ -106,3 +106,4 @@ C:\Users\abu.arefin\OneDrive - Save the Children International\Desktop\git\C-Aut
 C:\Users\abu.arefin\OneDrive - Save the Children International\Desktop\git\C-Automation\DotNetSelenium\DotNetSelenium\obj\Debug\net8.0\DotNetSelenium.pdb
 C:\Users\abu.arefin\OneDrive - Save the Children International\Desktop\git\C-Automation\DotNetSelenium\DotNetSelenium\obj\Debug\net8.0\DotNetSelenium.genruntimeconfig.cache
 C:\Users\abu.arefin\OneDrive - Save the Children International\Desktop\git\C-Automation\DotNetSelenium\DotNetSelenium\obj\Debug\net8.0\ref\DotNetSelenium.dll
+C:\Users\abu.arefin\OneDrive - Save the Children International\Desktop\git\C-Automation\DotNetSelenium\DotNetSelenium\bin\Debug\net8.0\WebDriver.Support.dll
