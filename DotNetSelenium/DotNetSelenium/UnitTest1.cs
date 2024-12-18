@@ -20,8 +20,9 @@ namespace DotNetSelenium
             driver.Manage().Window.Maximize();
             //IWebElement webElement = driver.FindElement(By.XPath("(//textarea[@id='APjFqb'])[1]"));
             //webElement.SendKeys("Selenium");
+            SeleniumCustomMethods.EnterText(driver, By.XPath("(//textarea[@id='APjFqb'])[1]"), "Selenium");
             //webElement.SendKeys(Keys.Return);
-            SeleniumCustomMethods.SendKeys(driver, By.XPath("(//textarea[@id='APjFqb'])[1]"));
+            //SeleniumCustomMethods.SendKeys(driver, By.XPath("(//textarea[@id='APjFqb'])[1]"));
             SeleniumCustomMethods.Return(driver, By.XPath("(//textarea[@id='APjFqb'])[1]"));
         }
 
@@ -33,16 +34,21 @@ namespace DotNetSelenium
             driver.Navigate().GoToUrl("http://eaapp.somee.com/");
             driver.Manage().Window.Maximize();
 
-            IWebElement loginLink = driver.FindElement(By.XPath("(//a[normalize-space()='Login'])[1]"));
-            loginLink.Click();
+            //IWebElement loginLink = driver.FindElement(By.XPath("(//a[normalize-space()='Login'])[1]"));
+            //loginLink.Click();
+            SeleniumCustomMethods.Click(driver, By.XPath("(//a[normalize-space()='Login'])[1]"));
 
-            IWebElement txtUserName = driver.FindElement(By.XPath("(//input[@id='UserName'])[1]"));
-            txtUserName.SendKeys("admin");
-            IWebElement txtUserPassword = driver.FindElement(By.XPath("(//input[@id='Password'])[1]"));
-            txtUserPassword.SendKeys("password");
-            IWebElement btnLogIn = driver.FindElement(By.XPath("(//input[@id='loginIn'])[1]"));
-            //btnLogIn.Submit();
-            btnLogIn.Click();
+            //IWebElement txtUserName = driver.FindElement(By.XPath("(//input[@id='UserName'])[1]"));
+            //txtUserName.SendKeys("admin");
+            SeleniumCustomMethods.EnterText(driver, By.XPath("(//input[@id='UserName'])[1]"), "admin");
+            //IWebElement txtUserPassword = driver.FindElement(By.XPath("(//input[@id='Password'])[1]"));
+            //txtUserPassword.SendKeys("password");
+            SeleniumCustomMethods.EnterText(driver, By.XPath("(//input[@id='Password'])[1]"), "password");
+            //IWebElement btnLogIn = driver.FindElement(By.XPath("(//input[@id='loginIn'])[1]"));
+            ////btnLogIn.Submit();
+            //btnLogIn.Click();
+            SeleniumCustomMethods.Click(driver, By.XPath("(//input[@id='loginIn'])[1]"));
+
         }
 
         [Test]
@@ -53,13 +59,18 @@ namespace DotNetSelenium
             //Log in
             driver.Navigate().GoToUrl("https://test.jobs.hi-bd.org/admin/login");
             driver.Manage().Window.Maximize();
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(2);
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(2);
+            SeleniumCustomMethods.Wait(driver, 2);
 
-            driver.FindElement(By.XPath("(//input[@id='username'])[1]")).SendKeys("arefin_super_admin");
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(1);
+            //driver.FindElement(By.XPath("(//input[@id='username'])[1]")).SendKeys("arefin_super_admin");
+            SeleniumCustomMethods.EnterText(driver, By.XPath("(//input[@id='username'])[1]"), "arefin_super_admin");
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(1);
+            SeleniumCustomMethods.Wait(driver, 1);
 
-            driver.FindElement(By.XPath("(//input[@id='password'])[1]")).SendKeys("123456");
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(1);
+            //driver.FindElement(By.XPath("(//input[@id='password'])[1]")).SendKeys("123456");
+            SeleniumCustomMethods.EnterText(driver, By.XPath("(//input[@id='password'])[1]"), "123456");
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(1);
+            SeleniumCustomMethods.Wait(driver, 1);
 
             driver.FindElement(By.XPath("(//button[normalize-space()='Log in'])[1]")).Click();
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
@@ -74,8 +85,10 @@ namespace DotNetSelenium
             driver.FindElement(By.XPath("(//a[normalize-space()='Add New'])[1]")).Click();
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
 
-            SelectElement selectProjectOrDepartment = new SelectElement(driver.FindElement(By.XPath("(//select[@id='department'])[1]")));
-            selectProjectOrDepartment.SelectByValue("Finance");
+            //SelectElement selectProjectOrDepartment = new SelectElement(driver.FindElement(By.XPath("(//select[@id='department'])[1]")));
+            //selectProjectOrDepartment.SelectByValue("Finance");
+            SeleniumCustomMethods.DropDownByText(driver, By.XPath("(//select[@id='department'])[1]"), "Finance");
+
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(1);
 
             driver.FindElement(By.XPath("(//input[@id='name_of_department'])[1]")).SendKeys("Sample Automation Test");
