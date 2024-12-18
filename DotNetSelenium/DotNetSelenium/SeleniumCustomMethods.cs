@@ -1,10 +1,5 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DotNetSelenium
 {
@@ -46,6 +41,31 @@ namespace DotNetSelenium
         public static void Wait(IWebDriver driver, int number)
         {
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(number);
+        }
+
+        public static void Multiselect(IWebDriver driver, By locator, string[] texts)
+        {
+            SelectElement multiSelect = new SelectElement(driver.FindElement(locator));
+
+            foreach (var item in texts)
+            {
+                multiSelect.SelectByText(item);
+            }
+        }
+
+        public static List<string> GetAllSelectedLists(IWebDriver driver, By locator)
+        {
+            List<string> options = new List<string>();
+            SelectElement multiSelect = new SelectElement(driver.FindElement(locator));
+
+            IList<IWebElement> selectedOption = multiSelect.AllSelectedOptions;
+
+            foreach (IWebElement option in selectedOption)
+            {
+                options.Add(option.Text);
+            }
+
+            return options;
         }
     }
 }

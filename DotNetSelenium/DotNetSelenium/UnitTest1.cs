@@ -1,3 +1,4 @@
+using DotNetSelenium.Pages;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Support.UI;
@@ -34,25 +35,28 @@ namespace DotNetSelenium
             driver.Navigate().GoToUrl("http://eaapp.somee.com/");
             driver.Manage().Window.Maximize();
 
-            //IWebElement loginLink = driver.FindElement(By.XPath("(//a[normalize-space()='Login'])[1]"));
-            //loginLink.Click();
             SeleniumCustomMethods.Click(driver, By.XPath("(//a[normalize-space()='Login'])[1]"));
 
-            //IWebElement txtUserName = driver.FindElement(By.XPath("(//input[@id='UserName'])[1]"));
-            //txtUserName.SendKeys("admin");
             SeleniumCustomMethods.EnterText(driver, By.XPath("(//input[@id='UserName'])[1]"), "admin");
-            //IWebElement txtUserPassword = driver.FindElement(By.XPath("(//input[@id='Password'])[1]"));
-            //txtUserPassword.SendKeys("password");
             SeleniumCustomMethods.EnterText(driver, By.XPath("(//input[@id='Password'])[1]"), "password");
-            //IWebElement btnLogIn = driver.FindElement(By.XPath("(//input[@id='loginIn'])[1]"));
-            ////btnLogIn.Submit();
-            //btnLogIn.Click();
             SeleniumCustomMethods.Click(driver, By.XPath("(//input[@id='loginIn'])[1]"));
-
         }
 
         [Test]
-        public void HANDICAP() 
+        public void EAWebSiteTestWithPOM() 
+        {
+            var driver = new EdgeDriver();
+
+            driver.Navigate().GoToUrl("http://eaapp.somee.com/");
+            driver.Manage().Window.Maximize();
+
+            LoginPage loginPage = new LoginPage(driver);
+            loginPage.ClickLogin();
+            loginPage.Login("admin", "password");
+        }
+
+        [Test]
+        public void HANDICAPRecruitmentRequest()
         {
             IWebDriver driver = new EdgeDriver();
 
@@ -137,6 +141,39 @@ namespace DotNetSelenium
 
             driver.FindElement(By.XPath("(//input[@id='salary_range_to'])[1]")).SendKeys("40000");
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(1);
+        }
+
+        [Test]
+        public void HANDICAPJob()
+        {
+            IWebDriver driver = new EdgeDriver();
+
+            //Log in
+            driver.Navigate().GoToUrl("https://test.jobs.hi-bd.org/admin/login");
+            driver.Manage().Window.Maximize();
+            SeleniumCustomMethods.Wait(driver, 2);
+
+            SeleniumCustomMethods.EnterText(driver, By.XPath("(//input[@id='username'])[1]"), "arefin_super_admin");
+            SeleniumCustomMethods.Wait(driver, 1);
+
+            SeleniumCustomMethods.EnterText(driver, By.XPath("(//input[@id='password'])[1]"), "123456");
+            SeleniumCustomMethods.Wait(driver, 1);
+
+            driver.FindElement(By.XPath("(//button[normalize-space()='Log in'])[1]")).Click();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+
+            //Job Module
+            SeleniumCustomMethods.Click(driver, By.XPath("//a[@data-toggle='dropdown'][normalize-space()='Job']"));
+            SeleniumCustomMethods.Wait(driver, 3);
+
+            SeleniumCustomMethods.Click(driver, By.XPath("(//a[normalize-space()='Job Advertisement'])[1]"));
+            SeleniumCustomMethods.Wait(driver, 5);
+
+            SeleniumCustomMethods.Click(driver, By.XPath("(//a[@class='edit btn btn-info btn-sm1'])[1]"));
+            SeleniumCustomMethods.Wait(driver, 10);
+
+            SeleniumCustomMethods.Click(driver, By.XPath("(//a[normalize-space()='Candidate Requirements'])[1]"));
+            SeleniumCustomMethods.Wait(driver, 2);
         }
     }
 }
