@@ -56,3 +56,15 @@ public class SeleniumCustomMethods
 	    	//getSelectedOptions.ForEach(Console.WriteLine);
 	}
 }
+
+# Run from command line:
+[Test]
+[Category("smoke")]
+public void EAWebSiteTestWithPOM()
+{
+    LoginPage loginPage = new LoginPage(_driver);
+    loginPage.ClickLogin();
+    loginPage.Login(username, password);
+}
+
+dotnet test --filter "Category=smoke"

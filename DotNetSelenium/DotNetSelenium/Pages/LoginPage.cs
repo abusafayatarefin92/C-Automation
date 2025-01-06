@@ -15,6 +15,9 @@ namespace DotNetSelenium.Pages
         IWebElement textUsername => driver.FindElement(By.XPath("(//input[@id='UserName'])[1]"));
         IWebElement textPassword => driver.FindElement(By.XPath("(//input[@id='Password'])[1]"));
         IWebElement btnLogin => driver.FindElement(By.XPath("(//input[@id='loginIn'])[1]"));
+        IWebElement linkEmployeeDetails => driver.FindElement(By.LinkText("Employee Details"));
+        IWebElement linkManageUsers => driver.FindElement(By.LinkText("Manage Users"));
+        IWebElement linkLogOff => driver.FindElement(By.LinkText("Log off"));
 
         //public void ClickLogin()
         //{
@@ -38,6 +41,11 @@ namespace DotNetSelenium.Pages
             textUsername.EnterText(username);
             textPassword.EnterText(password);
             btnLogin.SubmitElement();
+        }
+
+        public (bool employeeDeatils, bool manageUsers) IsLoggedIn()
+        {
+            return (linkEmployeeDetails.Displayed, linkManageUsers.Displayed);
         }
     }
 }
