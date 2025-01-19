@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\DotNetSelenium\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{429DF1A9-91FE-43B5-9AAB-750D5626DB45}|DotNetSelenium\\DotNetSelenium.csproj|c:\\users\\abu.arefin\\onedrive - save the children international\\desktop\\git\\c-automation\\dotnetselenium\\dotnetselenium\\datadriventesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{429DF1A9-91FE-43B5-9AAB-750D5626DB45}|DotNetSelenium\\DotNetSelenium.csproj|solutionrelative:dotnetselenium\\datadriventesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{429DF1A9-91FE-43B5-9AAB-750D5626DB45}|DotNetSelenium\\DotNetSelenium.csproj|c:\\users\\abu.arefin\\onedrive - save the children international\\desktop\\git\\c-automation\\dotnetselenium\\dotnetselenium\\pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{429DF1A9-91FE-43B5-9AAB-750D5626DB45}|DotNetSelenium\\DotNetSelenium.csproj|solutionrelative:dotnetselenium\\pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{429DF1A9-91FE-43B5-9AAB-750D5626DB45}|DotNetSelenium\\DotNetSelenium.csproj|c:\\users\\abu.arefin\\onedrive - save the children international\\desktop\\git\\c-automation\\dotnetselenium\\dotnetselenium\\seleniumcustommethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{429DF1A9-91FE-43B5-9AAB-750D5626DB45}|DotNetSelenium\\DotNetSelenium.csproj|solutionrelative:dotnetselenium\\seleniumcustommethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 317,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginPage.cs",
-              "DocumentMoniker": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\DotNetSelenium\\DotNetSelenium\\Pages\\LoginPage.cs",
-              "RelativeDocumentMoniker": "DotNetSelenium\\Pages\\LoginPage.cs",
-              "ToolTip": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\DotNetSelenium\\DotNetSelenium\\Pages\\LoginPage.cs",
-              "RelativeToolTip": "DotNetSelenium\\Pages\\LoginPage.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAkwC0AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T09:11:12.999Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DataDrivenTesting.cs",
-              "DocumentMoniker": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\DotNetSelenium\\DotNetSelenium\\DataDrivenTesting.cs",
-              "RelativeDocumentMoniker": "DotNetSelenium\\DataDrivenTesting.cs",
-              "ToolTip": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\DotNetSelenium\\DotNetSelenium\\DataDrivenTesting.cs",
-              "RelativeToolTip": "DotNetSelenium\\DataDrivenTesting.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAWwCYAAAA+AAAAAAAAAA==",
+              "Title": "SeleniumCustomMethods.cs",
+              "DocumentMoniker": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\DotNetSelenium\\DotNetSelenium\\SeleniumCustomMethods.cs",
+              "RelativeDocumentMoniker": "DotNetSelenium\\SeleniumCustomMethods.cs",
+              "ToolTip": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\DotNetSelenium\\DotNetSelenium\\SeleniumCustomMethods.cs",
+              "RelativeToolTip": "DotNetSelenium\\SeleniumCustomMethods.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T05:30:17.322Z",
+              "WhenOpened": "2025-01-19T04:50:31.922Z",
               "EditorCaption": ""
             }
           ]
