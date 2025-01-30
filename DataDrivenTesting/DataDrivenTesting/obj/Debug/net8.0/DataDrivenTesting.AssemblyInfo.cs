@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataDrivenTesting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffab17fe66e80c890e5b9282f6510716ab60881f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b70a89eb55cf5744e9edc635bbbffd1d9422fc0f")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataDrivenTesting")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataDrivenTesting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -50,6 +50,22 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "DotNetSeleniumExtras.PageObjects": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "DotNetSeleniumExtras.PageObjects.Core": {
+              "target": "Package",
+              "version": "[4.14.1, )"
+            },
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "ExtentReports": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.12.0, )"
@@ -76,6 +92,10 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
+            "Selenium.Axe": {
+              "target": "Package",
+              "version": "[4.0.21, )"
+            },
             "Selenium.Support": {
               "target": "Package",
               "version": "[4.27.0, )"
@@ -83,6 +103,10 @@
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[4.27.0, )"
+            },
+            "Selenium.WebDriver.MSEdgeDriver": {
+              "target": "Package",
+              "version": "[131.0.2903.48, )"
             },
             "System.Drawing.Common": {
               "target": "Package",

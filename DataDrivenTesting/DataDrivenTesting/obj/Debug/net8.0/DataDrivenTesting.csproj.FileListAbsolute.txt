@@ -108,3 +108,4 @@ C:\Users\abu.arefin\OneDrive - Save the Children International\Desktop\git\C-Aut
 C:\Users\abu.arefin\OneDrive - Save the Children International\Desktop\git\C-Automation\DataDrivenTesting\DataDrivenTesting\obj\Debug\net8.0\DataDrivenTesting.pdb
 C:\Users\abu.arefin\OneDrive - Save the Children International\Desktop\git\C-Automation\DataDrivenTesting\DataDrivenTesting\obj\Debug\net8.0\DataDrivenTesting.genruntimeconfig.cache
 C:\Users\abu.arefin\OneDrive - Save the Children International\Desktop\git\C-Automation\DataDrivenTesting\DataDrivenTesting\obj\Debug\net8.0\ref\DataDrivenTesting.dll
+C:\Users\abu.arefin\OneDrive - Save the Children International\Desktop\git\C-Automation\DataDrivenTesting\DataDrivenTesting\bin\Debug\net8.0\DataDrivenTesting.dll.config
