@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "k/GEmQ4dKOU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\SeleniumWebdriverProject\\PageObjects\\PageObjects.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abu.arefin\\.nuget\\packages\\selenium.support\\4.31.0\\selenium.support.4.31.0.nupkg.sha512",
+    "C:\\Users\\abu.arefin\\.nuget\\packages\\selenium.webdriver\\4.31.0\\selenium.webdriver.4.31.0.nupkg.sha512"
+  ],
+  "logs": []
+}

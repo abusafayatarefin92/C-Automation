@@ -1571,9 +1571,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\SeleniumWebdriverProject\\SeleniumWebdriverProject\\SeleniumWebdriverProject.csproj",
-      "projectName": "SeleniumWebdriverProject",
-      "projectPath": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\SeleniumWebdriverProject\\SeleniumWebdriverProject\\SeleniumWebdriverProject.csproj",
+      "projectUniqueName": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\SeleniumWebdriverProject\\SeleniumWebdriverProject\\SeleniumWebdriverBasics.csproj",
+      "projectName": "SeleniumWebdriverBasics",
+      "projectPath": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\SeleniumWebdriverProject\\SeleniumWebdriverProject\\SeleniumWebdriverBasics.csproj",
       "packagesPath": "C:\\Users\\abu.arefin\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\SeleniumWebdriverProject\\SeleniumWebdriverProject\\obj\\",
       "projectStyle": "PackageReference",
