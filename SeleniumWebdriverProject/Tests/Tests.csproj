@@ -16,6 +16,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PageObjects\PageObjects.csproj" />
+    <ProjectReference Include="..\Utils\Utils.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="result\" />
   </ItemGroup>
 
 </Project>

@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\SeleniumWebdriverProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F56D4365-8D9B-4C3C-8501-BA27B01D9C3B}|SeleniumWebdriverProject\\SeleniumWebdriverProject.csproj|c:\\users\\abu.arefin\\onedrive - save the children international\\desktop\\git\\c-automation\\seleniumwebdriverproject\\seleniumwebdriverproject\\tests\\waitstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F56D4365-8D9B-4C3C-8501-BA27B01D9C3B}|SeleniumWebdriverProject\\SeleniumWebdriverProject.csproj|solutionrelative:seleniumwebdriverproject\\tests\\waitstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CDE2A624-6026-4EFF-8600-72CB45CF4BE2}|PageObjects\\PageObjects.csproj|c:\\users\\abu.arefin\\onedrive - save the children international\\desktop\\git\\c-automation\\seleniumwebdriverproject\\pageobjects\\pageobjects\\webformpages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE2A624-6026-4EFF-8600-72CB45CF4BE2}|PageObjects\\PageObjects.csproj|solutionrelative:pageobjects\\pageobjects\\webformpages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF013D61-F527-48BD-BF82-43B685A6F3D0}|Utils\\Utils.csproj|c:\\users\\abu.arefin\\onedrive - save the children international\\desktop\\git\\c-automation\\seleniumwebdriverproject\\utils\\reports\\extentreporting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF013D61-F527-48BD-BF82-43B685A6F3D0}|Utils\\Utils.csproj|solutionrelative:utils\\reports\\extentreporting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF013D61-F527-48BD-BF82-43B685A6F3D0}|Utils\\Utils.csproj|c:\\users\\abu.arefin\\onedrive - save the children international\\desktop\\git\\c-automation\\seleniumwebdriverproject\\utils\\common\\browser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF013D61-F527-48BD-BF82-43B685A6F3D0}|Utils\\Utils.csproj|solutionrelative:utils\\common\\browser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEEAF35B-76FB-4A55-AC6E-D348D94C8E95}|Tests\\Tests.csproj|c:\\users\\abu.arefin\\onedrive - save the children international\\desktop\\git\\c-automation\\seleniumwebdriverproject\\tests\\tests\\webformtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEEAF35B-76FB-4A55-AC6E-D348D94C8E95}|Tests\\Tests.csproj|solutionrelative:tests\\tests\\webformtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEEAF35B-76FB-4A55-AC6E-D348D94C8E95}|Tests\\Tests.csproj|c:\\users\\abu.arefin\\onedrive - save the children international\\desktop\\git\\c-automation\\seleniumwebdriverproject\\tests\\common\\testbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEEAF35B-76FB-4A55-AC6E-D348D94C8E95}|Tests\\Tests.csproj|solutionrelative:tests\\common\\testbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +30,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 317,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebFormPages.cs",
+              "DocumentMoniker": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\SeleniumWebdriverProject\\PageObjects\\PageObjects\\WebFormPages.cs",
+              "RelativeDocumentMoniker": "PageObjects\\PageObjects\\WebFormPages.cs",
+              "ToolTip": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\SeleniumWebdriverProject\\PageObjects\\PageObjects\\WebFormPages.cs",
+              "RelativeToolTip": "PageObjects\\PageObjects\\WebFormPages.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAApwBgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T07:54:20.611Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WaitsTests.cs",
-              "DocumentMoniker": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\SeleniumWebdriverProject\\SeleniumWebdriverProject\\Tests\\WaitsTests.cs",
-              "RelativeDocumentMoniker": "SeleniumWebdriverProject\\Tests\\WaitsTests.cs",
-              "ToolTip": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\SeleniumWebdriverProject\\SeleniumWebdriverProject\\Tests\\WaitsTests.cs*",
-              "RelativeToolTip": "SeleniumWebdriverProject\\Tests\\WaitsTests.cs*",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAAEIAAABBAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "WebFormTests.cs",
+              "DocumentMoniker": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\SeleniumWebdriverProject\\Tests\\Tests\\WebFormTests.cs",
+              "RelativeDocumentMoniker": "Tests\\Tests\\WebFormTests.cs",
+              "ToolTip": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\SeleniumWebdriverProject\\Tests\\Tests\\WebFormTests.cs",
+              "RelativeToolTip": "Tests\\Tests\\WebFormTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T04:28:22.283Z",
+              "WhenOpened": "2025-04-24T07:52:36.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Browser.cs",
+              "DocumentMoniker": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\SeleniumWebdriverProject\\Utils\\Common\\Browser.cs",
+              "RelativeDocumentMoniker": "Utils\\Common\\Browser.cs",
+              "ToolTip": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\SeleniumWebdriverProject\\Utils\\Common\\Browser.cs",
+              "RelativeToolTip": "Utils\\Common\\Browser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T07:44:56.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TestBase.cs",
+              "DocumentMoniker": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\SeleniumWebdriverProject\\Tests\\Common\\TestBase.cs",
+              "RelativeDocumentMoniker": "Tests\\Common\\TestBase.cs",
+              "ToolTip": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\SeleniumWebdriverProject\\Tests\\Common\\TestBase.cs",
+              "RelativeToolTip": "Tests\\Common\\TestBase.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T06:29:16.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExtentReporting.cs",
+              "DocumentMoniker": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\SeleniumWebdriverProject\\Utils\\Reports\\ExtentReporting.cs",
+              "RelativeDocumentMoniker": "Utils\\Reports\\ExtentReporting.cs",
+              "ToolTip": "C:\\Users\\abu.arefin\\OneDrive - Save the Children International\\Desktop\\git\\C-Automation\\SeleniumWebdriverProject\\Utils\\Reports\\ExtentReporting.cs",
+              "RelativeToolTip": "Utils\\Reports\\ExtentReporting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T05:59:45.417Z",
               "EditorCaption": ""
             }
           ]

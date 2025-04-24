@@ -1,4 +1,5 @@
 ﻿using OpenQA.Selenium;
+using Utils.Reports;
 
 namespace PageObjects.PageObjects
 {
@@ -17,6 +18,8 @@ namespace PageObjects.PageObjects
         //methods
         public WebFormPages WriteToTextArea(string text)
         {
+            ExtentReporting.LogInfo($"Write '{text}' to text area");
+
             TextArea.SendKeys(text);
 
             return this;
@@ -24,6 +27,8 @@ namespace PageObjects.PageObjects
 
         public TargetPage SubmitForm()
         {
+            ExtentReporting.LogInfo("Click submit form button");
+
             SubmitButton.Click();
 
             return new TargetPage(driver);
